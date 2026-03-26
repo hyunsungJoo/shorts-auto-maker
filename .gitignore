@@ -1,0 +1,17 @@
+# 설정 파일 (API 키, 경로 등 민감 정보)
+.env
+
+# 파이썬 가상환경
+venv/
+.venv/
+
+# 파이썬 컴파일 파일
+__pycache__/
+*.pyc
+
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
+
+# 결과물 저장 폴더 (선택 사항)
+outputs/
