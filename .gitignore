@@ -13,5 +13,13 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# 결과물 저장 폴더 (선택 사항)
+# --- Generated Assets ---
+# 생성된 대본 JSON 파일
+latest_script.json
+
+# 생성된 음성 파일 폴더 (폴더 통째로 제외)
+assets/audio/
+
+# (선택 사항) 나중에 생성될 영상 결과물 폴더도 미리 추가
+assets/video/
 outputs/
