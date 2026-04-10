@@ -23,7 +23,7 @@ def generate_images_from_pollinations(script_data):
         # if os.path.exists(file_path): 
         #    success_count += 1; continue
 
-        optimized_prompt = f"{prompt}, professional photography, cinematic lighting, ghibli style, high resolution"
+        optimized_prompt = f"{prompt[:100]}, 1990s ghibli style, vintage anime, high quality" # 100자 제한
         encoded_prompt = requests.utils.quote(optimized_prompt)
         
         # 429 방지를 위해 요청마다 랜덤 시드 부여
